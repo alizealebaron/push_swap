@@ -1,17 +1,19 @@
 # Les différentes étapes de push_swap
 
-Cette to-do list a entièrement été reprise du [gitbook de Laura](https://42-cursus.gitbook.io/guide/2-rank-02/push_swap). Il a néanmoins été traduis en français afin de simplifier son utilisation.
+Cette to-do list a entièrement été reprise du [gitbook de Laura](https://42-cursus.gitbook.io/guide/2-rank-02/push_swap). Il a néanmoins été traduis en français afin de simplifier son utilisation. D'autres éléments ont aussi été rajoutés au fur et à mesure de mon avancement.
 
 ## Checklist principale
 
 - [ ] Choisir entre listes chaînés et tableaux.
 - [ ] Prendre en compte les arguments passés en paramètres
-- [ ] Si vous utilisez l'algorithmes de tri radix, normalisez vos données.
+- [ ] Si vous utilisez l'algorithme de tri radix, normalisez vos données.
 
 ## Checklist des erreurs
 
 Il y a beaucoup d'erreurs à prendre en compte dans push_swap, il ne faut pas en oublier une seule.
 
+- [ ] Le programme ne doit rien renvoyé s'il n'y a pas d'arguments
+	- [ ] `./push_swap`
 - [ ] Le programme doit fonctionner avec plus nombres en arguments
 	- [ ] `./push_swap 1 3 5 +9 20 -4 50 60 04 08`
 - [ ] Le programme doit aussi fonctionner avec une chaîne de caractères donnée en paramètre.
@@ -20,7 +22,7 @@ Il y a beaucoup d'erreurs à prendre en compte dans push_swap, il ne faut pas en
 	- [ ] `./push_swap 1 3 dog 35 80 -3`
 	- [ ] `./push_swap a`
 	- [ ] `./push_swap 1 2 3 5 67b778 947`
-	- [ ] `.push_swap " 12 4 6 8 54fhd 4354"`
+	- [ ] `./push_swap " 12 4 6 8 54fhd 4354"`
 	- [ ] `./push_swap 1 --    45 32`
 	- [ ] Ces exemples doivent retourner `Error\n`
 - [ ] Le programme ne doit pas fonctionner si deux nombres sont identiques
@@ -41,6 +43,7 @@ Il y a beaucoup d'erreurs à prendre en compte dans push_swap, il ne faut pas en
 	- [ ] Ces exemples doivent retourner `Error\n`
 - [ ] Rien n'est spécifié concernant l'utilisation mixée de string et de int. Faites ce que vous voulez.
 	- [ ] `./push_swap "1 2 4 3" 76 90 "348 05`
+- [ ] Les erreurs doivent être envoyées sur la sortie erreur standard.
 
 ## Checklist d'instructions
 
