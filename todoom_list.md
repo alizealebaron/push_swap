@@ -48,21 +48,21 @@ Il y a beaucoup d'erreurs à prendre en compte dans push_swap, il ne faut pas en
 
 Cette checklist vous aidera à vérifier que vous avez coder les 11 instructions qui peuvent être utilisée par votre algorithme. Si vous ne comprenez pas ces instructions, vous pouvez consulter le sujet ou d'autres ressources. 
 
-- [X] sa (swap a) : S'il y a 2 nombres, échangez les deux éléments au sommet de la pile a.
-- [X] sb (swap b) : S'il y a 2 nombres, échangez les deux éléments au sommet de la pile b.
-- [X] ss : sa et sb en même temps.
-- [X] pa (push a) : Si b n'est pas vide, prends l'élement au sommet de b et l'ajoute dans a.
-- [X] pb (push b) : Si a n'est pas vide, prends l'élement au sommet de a et l'ajoute dans b.
-- [X] ra (rotate a) : Déplace tous les éléments de la pile a d'une position vers le haut. Le premier élément devient le dernier. 
-- [X] rb (rotate b) : Déplace tous les éléments de la pile b d'une position vers le haut. Le premier élément devient le dernier. 
-- [X] rr : ra et rb en même temps.
-- [X] rra : Déplace tous les éléments de la pile a d'une position vers le bas. Le dernier élément devient le premier.
-- [X] rrb : Déplace tous les éléments de la pile b d'une position vers le bas. Le dernier élément devient le premier.
-- [X] rrr : rra et rrb en même temps.
+- [ ] sa (swap a) : S'il y a 2 nombres, échangez les deux éléments au sommet de la pile a.
+- [ ] sb (swap b) : S'il y a 2 nombres, échangez les deux éléments au sommet de la pile b.
+- [ ] ss : sa et sb en même temps.
+- [ ] pa (push a) : Si b n'est pas vide, prends l'élement au sommet de b et l'ajoute dans a.
+- [ ] pb (push b) : Si a n'est pas vide, prends l'élement au sommet de a et l'ajoute dans b.
+- [ ] ra (rotate a) : Déplace tous les éléments de la pile a d'une position vers le haut. Le premier élément devient le dernier. 
+- [ ] rb (rotate b) : Déplace tous les éléments de la pile b d'une position vers le haut. Le premier élément devient le dernier. 
+- [ ] rr : ra et rb en même temps.
+- [ ] rra : Déplace tous les éléments de la pile a d'une position vers le bas. Le dernier élément devient le premier.
+- [ ] rrb : Déplace tous les éléments de la pile b d'une position vers le bas. Le dernier élément devient le premier.
+- [ ] rrr : rra et rrb en même temps.
 
 ## Checklist du tri / algorithme
 
-- [X] Vérifiez si l'ordre de la liste est correct ou s'il doit être trié.
+- [ ] Vérifiez si l'ordre de la liste est correct ou s'il doit être trié.
 - [ ] Créez un petit algorithme pour les petits nombres (5 et moins).
 - [ ] Implémentez une condition pour 2 nombres.
 - [ ] Créez un algorithme pour 3 nombres.
