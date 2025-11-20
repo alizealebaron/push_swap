@@ -4,45 +4,45 @@ Cette to-do list a entièrement été reprise du [gitbook de Laura](https://42-c
 
 ## Checklist principale
 
-- [X] Choisir entre listes chaînés et tableaux.
-- [X] Prendre en compte les arguments passés en paramètres
+- [ ] Choisir entre listes chaînés et tableaux.
+- [ ] Prendre en compte les arguments passés en paramètres
 - [ ] Si vous utilisez l'algorithme de tri radix, normalisez vos données.
 
 ## Checklist des erreurs
 
 Il y a beaucoup d'erreurs à prendre en compte dans push_swap, il ne faut pas en oublier une seule.
 
-- [X] Le programme ne doit rien renvoyé s'il n'y a pas d'arguments
-	- [X] `./push_swap`
-- [X] Le programme doit fonctionner avec plus nombres en arguments
-	- [X] `./push_swap 1 3 5 +9 20 -4 50 60 04 08`
-- [X] Le programme doit aussi fonctionner avec une chaîne de caractères donnée en paramètre.
-	- [X] `./push_swap "3 4 6 8 9 74 -56 +495"`
-- [X] Le programme doit retourner une erreur si un caractère non digital est rencontré
-	- [X] `./push_swap 1 3 dog 35 80 -3`
-	- [X] `./push_swap a`
-	- [X] `./push_swap 1 2 3 5 67b778 947`
-	- [X] `./push_swap " 12 4 6 8 54fhd 4354"`
-	- [X] `./push_swap 1 --    45 32`
-	- [X] Ces exemples doivent retourner `Error\n`
-- [X] Le programme ne doit pas fonctionner si deux nombres sont identiques
-	- [X] `./push_swap 1 3 58 9 3`
-	- [X] `./push_swap 3 03`
-	- [X] `./push_swap " 49 128     50 38   49"`
-	- [X] Ces exemples doivent retourner `Error\n`
-	- [X] `./push_swap "95 99 -9 10 9"`
-	- [X] Cet exemple fonctionne (9 != -9)
-- [X] Le programme doit fonctionner avec MAX_INT et MIN_INT
-	- [X] `./push_swap 2147483647 2 4 7`
-	- [X] `./push_swap 99 -2147483648 23 545`
-	- [X] `./push_swap "2147483647 843 56544 24394"`
-- [X] Le programme ne doit pas fonctionner avec des nombres dépassant les bornes d'un int
-	- [X] `./push_swap 54867543867438 3`
-	- [X] `./push_swap -2147483647765 4 5`
-	- [X] Ces exemples doivent retourner `Error\n`
-- [X] Rien n'est spécifié concernant l'utilisation mixée de string et de int. Faites ce que vous voulez.
-	- [X] `./push_swap "1 2 4 3" 76 90 "348 05"`
-- [X] Les erreurs doivent être envoyées sur la sortie erreur standard.
+- [ ] Le programme ne doit rien renvoyé s'il n'y a pas d'arguments
+	- [ ] `./push_swap`
+- [ ] Le programme doit fonctionner avec plus nombres en arguments
+	- [ ] `./push_swap 1 3 5 +9 20 -4 50 60 04 08`
+- [ ] Le programme doit aussi fonctionner avec une chaîne de caractères donnée en paramètre.
+	- [ ] `./push_swap "3 4 6 8 9 74 -56 +495"`
+- [ ] Le programme doit retourner une erreur si un caractère non digital est rencontré
+	- [ ] `./push_swap 1 3 dog 35 80 -3`
+	- [ ] `./push_swap a`
+	- [ ] `./push_swap 1 2 3 5 67b778 947`
+	- [ ] `./push_swap " 12 4 6 8 54fhd 4354"`
+	- [ ] `./push_swap 1 --    45 32`
+	- [ ] Ces exemples doivent retourner `Error\n`
+- [ ] Le programme ne doit pas fonctionner si deux nombres sont identiques
+	- [ ] `./push_swap 1 3 58 9 3`
+	- [ ] `./push_swap 3 03`
+	- [ ] `./push_swap " 49 128     50 38   49"`
+	- [ ] Ces exemples doivent retourner `Error\n`
+	- [ ] `./push_swap "95 99 -9 10 9"`
+	- [ ] Cet exemple fonctionne (9 != -9)
+- [ ] Le programme doit fonctionner avec MAX_INT et MIN_INT
+	- [ ] `./push_swap 2147483647 2 4 7`
+	- [ ] `./push_swap 99 -2147483648 23 545`
+	- [ ] `./push_swap "2147483647 843 56544 24394"`
+- [ ] Le programme ne doit pas fonctionner avec des nombres dépassant les bornes d'un int
+	- [ ] `./push_swap 54867543867438 3`
+	- [ ] `./push_swap -2147483647765 4 5`
+	- [ ] Ces exemples doivent retourner `Error\n`
+- [ ] Rien n'est spécifié concernant l'utilisation mixée de string et de int. Faites ce que vous voulez.
+	- [ ] `./push_swap "1 2 4 3" 76 90 "348 05"`
+- [ ] Les erreurs doivent être envoyées sur la sortie erreur standard.
 
 ## Checklist d'instructions
 
