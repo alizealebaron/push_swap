@@ -5,9 +5,9 @@
 
 **Commencé le :** 16/11/2025
 
-**Rendu le :** Pas encore rendu.
+**Rendu le :** 24/11/2025.
 
-**Note :** Pas de note.
+**Note :** 84/100 (3 retry).
 
 ## Sommaire du guide
 
