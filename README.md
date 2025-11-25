@@ -9,14 +9,15 @@
 
 **Note :** 84/100 (3 retry).
 
-## Sommaire du guide
+## Sommaire
 
 - [To-do list](todoom_list.md)
-- A venir.. ?
+- Le reste de mon code est dans les fichiers !
 
 ## Inspirations && Sources
 
 - [42-cursus.gitbook.io/guide/2-rank-02/push_swap](https://42-cursus.gitbook.io/guide/2-rank-02/push_swap)
-- [medium.com](https://medium.com/@ayogun/push-swap-c1f5d2d41e97)
+- [medium.com/A-journey-to-find-most-efficient-sorting-algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97)
+- [medium.com/push-swap-tutorial](https://medium.com/nerd-for-tech/push-swap-tutorial-fa746e6aba1e)
 
 **Contact :** alebaron@student.42lehavre.fr
