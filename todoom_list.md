@@ -65,12 +65,8 @@ Cette checklist vous aidera à vérifier que vous avez coder les 11 instructions
 - [ ] Vérifiez si l'ordre de la liste est correct ou s'il doit être trié.
 - [ ] Créez un petit algorithme pour les petits nombres (5 et moins).
 - [ ] Implémentez une condition pour 2 nombres.
-- [ ] Créez un algorithme pour 3 nombres.
-- [ ] Créez un algorithme pour 4 nombres.
-- [ ] Créez un algorithme pour 5 nombres.
+- [ ] Créez un algorithme pour 3 nombres (Le sujet ne le demande pas mais la fiche de correction si).
+- [ ] Créez un algorithme pour 5 nombres (Le sujet ne le demande pas mais la fiche de correction si).
 - [ ] Créez un autre algorithme pour tous les autres nombres.
-
-> [!NOTE]  
-> J'ai laissé les cases pour l'algorithme des petits nombres (< 5) mais le sujet actuel ne nous demande plus de traîter leur cas à part.
 
 Vérifiez à la fin que tout est correct ! Il ne doit y avoir aucune fuite, pensez à toujours libérer la mémoire allouée lorsque vous ne l'utilisez plus.
